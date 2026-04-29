@@ -5,13 +5,13 @@
 #define PARTICLE_H
 
 typedef struct particle {
-    double Mass;
-    double xVel;
-    double yVel;
-    double xAcc;
-    double yAcc;
-    double xPos;
-    double yPos;
+    double Mass; // in kg
+    double xVel; // m/s
+    double yVel; // m/s
+    double xAcc; // m/s/s
+    double yAcc; // m/s/s
+    double xPos; // 100 km
+    double yPos; // 100 km
 } particle;
 
 #endif // PARTICLE_H
